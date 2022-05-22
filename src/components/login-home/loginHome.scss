@@ -1,0 +1,66 @@
+.loginHome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__signUp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+
+    form {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: inherit;
+      text-align: center;
+    }
+
+    &-input {
+      outline-width: 0;
+      border: none;
+      height: 30px;
+      padding: 10px;
+      width: 30%;
+      max-width: 600px;
+      min-width: 200px;
+    }
+
+    &-btn {
+      height: 50px;
+      font-size: 1rem;
+      color: #fff;
+      background-color: #e50914;
+      border: 0;
+      outline: none;
+      padding: 0 20px;
+    }
+  }
+
+  > h1 {
+    font-size: 3.125rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  > h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  > h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}

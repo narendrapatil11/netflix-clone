@@ -1,0 +1,37 @@
+.movieStrip {
+  color: #fff;
+  margin-left: 20px;
+
+  &__header {
+    margin: 20px 0 10px 0;
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &__poster {
+    max-height: 100px;
+    object-fit: contain;
+    margin-right: 10px;
+    width: 100%;
+    transition: transform 450ms;
+
+    &:hover {
+      transform: scale(1.08);
+      opacity: 1;
+    }
+  }
+
+  &__posterLarge {
+    max-height: 250px;
+  }
+
+}
